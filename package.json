@@ -4,7 +4,7 @@
   "description": "A clean JavaScript workbench to run unit tests during coding kata/dojo...",
   "main": "app/app.js",
   "scripts": {
-    "test": "test"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",

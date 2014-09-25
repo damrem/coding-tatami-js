@@ -1,15 +1,19 @@
 A JavaScript workbench to run unit tests during coding kata/dojo...
 
-Install [Node.js](http://nodejs.org/)
+Headless browser PhantomJS runs your tests, and re-run them each time app or test code is changed...
 
-Install globally the GruntJS CLI:
+1. Install [Node.js](http://nodejs.org/)
 
-    npm install -g grunt-cli
+2. Install the Karma CLI:
 
-In the project folder, install the dependencies:
+    $ npm install -g karma-cli
 
-    npm install
+3. Install the project dependencies:
 
-Run the tests:
+    $ npm install
 
-    grunt
+4. Run the tests:
+
+    $ npm test
+
+5. Edit your app/test code, that's all folks!
