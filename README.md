@@ -1,10 +1,15 @@
-A clean JavaScript workbench to run unit tests during coding kata/dojo...
+A JavaScript workbench to run unit tests during coding kata/dojo...
 
-Install node.js (and npm)
+Install [Node.js](http://nodejs.org/)
 
-Run:
-  npm install -g grunt-cli
+Install globally the GruntJS CLI:
 
-In the project folder, run:
-  npm install -l --save-dev grunt
-  npm install -l --save-dev karma
+    npm install -g grunt-cli
+
+In the project folder, install the dependencies:
+
+    npm install
+
+Run the tests:
+
+    grunt
