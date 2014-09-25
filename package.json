@@ -2,7 +2,7 @@
   "name": "coding-tatami",
   "version": "0.1.0",
   "description": "A clean JavaScript workbench to run unit tests during coding kata/dojo...",
-  "main": "index.js",
+  "main": "app/app.js",
   "scripts": {
     "test": "test"
   },

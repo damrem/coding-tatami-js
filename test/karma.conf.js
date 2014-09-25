@@ -3,6 +3,7 @@
 // Generated on 2014-06-24 using
 // generator-karma 0.8.2
 
+
 module.exports = function(config) {
   config.set({
     // enable / disable watching file and executing tests whenever any file changes
@@ -16,8 +17,9 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'app/**/*.js',
-      'test/**/*.spec.js'
+      //'**/*.js',
+      'app/app.js',
+      'test/app.spec.js'
       //'test/mock/**/*.js',
       //'test/spec/**/*.js'
     ],
