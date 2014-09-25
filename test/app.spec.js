@@ -11,6 +11,6 @@ describe('Unit testing the app', function(){
 	});
 
 	it('should add 2 numbers', function(){
-		expect(add(1, 2)).toBe(3);
+		expect(myModule.add(1, 2)).toBe(3);
 	});
 });

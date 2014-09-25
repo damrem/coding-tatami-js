@@ -1,5 +1,7 @@
 'use strict';
 
-function add(a, b){
+var myModule = {};
+
+myModule.add = function(a, b){
 	return a + b;
-}
+};
