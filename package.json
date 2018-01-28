@@ -2,7 +2,7 @@
   "name": "coding-tatami",
   "version": "0.1.0",
   "description": "A clean JavaScript workbench to run unit tests during coding kata/dojo...",
-  "main": "app/app.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "karma start karma.conf.js"
   },
@@ -27,7 +27,12 @@
   "homepage": "https://github.com/damrem/coding-tatami-js",
   "devDependencies": {
     "karma": "^0.12.23",
+    "karma-commonjs-preprocessor": "^0.1.1",
     "karma-jasmine": "^0.1.5",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2"
+  },
+  "dependencies": {
+    "requirejs": "^2.1.15"
   }
 }

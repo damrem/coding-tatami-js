@@ -10,24 +10,30 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'requirejs'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      'app/**/*.js',
-      'test/**/*.spec.js'
+        JASMINE, JASMINE_ADAPTER,
+        REQUIRE, REQUIRE_ADAPTER,
+        'lib/**/*.js',
+        'src/**/*.js',
+        'test/**/*.js'
     ],
 
 
     // list of files to exclude
     exclude: [
+        'src/main.js'
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+        //'app/**/*.js': ['karma-commonjs-preprocessor'],
+        //'test/**/*js': ['karma-commonjs-preprocessor']
     },
 
 
